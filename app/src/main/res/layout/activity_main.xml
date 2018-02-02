@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/ed_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter URL"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto connect WIFI"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/ed_name_wifi_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name WIFI_1"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"/>
+            <EditText
+                android:id="@+id/ed_pass_wifi_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pass Wifi"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/ed_name_wifi_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name WIFI_2"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"/>
+            <EditText
+                android:id="@+id/ed_pass_wifi_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pass Wifi"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/ed_name_wifi_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name WIFI_3"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"/>
+            <EditText
+                android:id="@+id/ed_pass_wifi_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pass Wifi"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/ed_name_wifi_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name WIFI_4"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"/>
+            <EditText
+                android:id="@+id/ed_pass_wifi_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pass Wifi"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/ed_name_wifi_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name WIFI_5"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"/>
+            <EditText
+                android:id="@+id/ed_pass_wifi_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pass Wifi"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/rv_button_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:background="@drawable/bg_button_enter"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
